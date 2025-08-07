@@ -24,16 +24,23 @@
         <p>Desenvolvedora apaixonada por criar soluções inovadoras e eficientes.</p>
         <a href="#projetos">Venha conhecer os meus projetos</a>
     </section>
+
+
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <div class="about-container-wrapper"></div>
         <div class="profile-image-container">
-            <img src="https://placehold.co/200x200/cccccc/333333?text=Sua+Foto" alt="Sua Foto de Perfil">
-            <div class="about-text-content">
-                <p>Escrever sobre mim</p>
+                <img src="{{ url_for('static', filename='foto_perfil.jpg') }}" alt="Sua Foto de Perfil">
+
             </div>
+        <div class="about-container-wrapper">
+            
+            <div class="about-text-content">
+                <p>Olá! Meu nome é [Seu Nome]. Sou um desenvolvedor web apaixonado por criar soluções inovadoras e eficientes. Tenho experiência em HTML, CSS e JavaScript, e estou sempre buscando aprender novas tecnologias para aprimorar minhas habilidades.</p>
+            </div>
+        
         </div>
     </section>
+
 
     <section id="projetos">
         <h2>Meus Projetos</h2>
