@@ -6,6 +6,8 @@
     <title>Portfólio</title>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" xintegrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
 </head>
 <body>
     <header>
@@ -27,19 +29,29 @@
     </section>
 
 
-    <section id="sobre">
-        <h2>Sobre mim</h2>
+     <section id="sobre">
         <div class="profile-image-container">
-                <img src="{{ url_for('static', filename='foto_perfil.jpg') }}" alt="Sua Foto de Perfil">
-
-            </div>
-        <div class="about-container-wrapper">
-            
-            <div class="about-text-content">
-                <p>Olá! Meu nome é [Seu Nome]. Sou um desenvolvedor web apaixonado por criar soluções inovadoras e eficientes. Tenho experiência em HTML, CSS e JavaScript, e estou sempre buscando aprender novas tecnologias para aprimorar minhas habilidades.</p>
-            </div>
-        
+            <img src="{{ url_for('static', filename='foto_perfil.jpg') }}" alt="Sua Foto de Perfil" class="profile-image">
         </div>
+        <div class="about-container-wrapper">
+            <div class="about-container">
+                <h2>Sobre mim</h2>
+                <p>Sou estudante de Análise e Desenvolvimento de Sistemas com experiência prática na área de manutenção administrativa e tecnologia. Atualmente atuo na Epson do Brasil como Jovem Aprendiz, onde contribuo com a automação de processos usando Excel e desenvolvimento de aplicativos com Power Apps e Power Automate para otimizar rotinas operacionais.
+
+Tenho conhecimentos em linguagens como Python, Java e Rust, além de experiência com frameworks como Spring Boot e Flask, e domínio em ferramentas de nuvem (AWS), IA e desenvolvimento web. Participei de projetos voltados à acessibilidade e área da saúde utilizando inteligência artificial, reconhecimento facial e análise de dados clínicos.</p>
+            </div>
+        </div>
+
+        <!-- Ícones das tecnologias -->
+        <div class="floating-icons">
+        <img src="static/html.png" class="tech-icon icon-html" alt="HTML5">
+        <img src="static/css.png" class="tech-icon icon-css" alt="CSS3">
+        
+        <img src="static/python.png" class="tech-icon icon-python" alt="Python">
+        <img src="static/java.png" class="tech-icon icon-java" alt="Java">
+        <img src="static/mysql.png" class="tech-icon icon-mysql" alt="MySQL">
+        <img src="static/docker.png" class="tech-icon icon-docker" alt="Docker">
+    </div>
     </section>
 
 
