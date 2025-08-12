@@ -10,6 +10,7 @@
 
 </head>
 <body>
+     <canvas id="bg-triangles"></canvas>
     <header>
         <nav class="menu">
   <a href="#home">HOME <span></span></a>
@@ -97,13 +98,13 @@
   </div>
 </div>
 
-    <!-- Botões -->
+   
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   </div>
 </section>
 
-<!-- Swiper CSS e JS -->
+
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -133,46 +134,44 @@ Possuo habilidades em cloud computing, Docker, Kubernetes e metodologias ágeis,
 
 
   <section id="projetos">
-    <h2>Meus Projetos</h2>
     <div class="container">
         <div class="slide">
-            
-            <div class="item" style="background-image: url(https://i.ibb.co/qCkd9jS/img1.jpg);">
+            <div class="item">
                 <div class="content">
                     <div class="name">Assistente virtual</div>
                     <div class="des">Luna é uma assistente virtual projetada para conversação, reconhecimento facial e em breve muito mais!!!</div>
                     <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Saber mais</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(https://i.ibb.co/jrRb11q/img2.jpg);">
+            <div class="item">
                 <div class="content">
                     <div class="name">Leitor PDF</div>
                     <div class="des">Leitor de PDFs</div>
                     <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Veja mais</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(https://i.ibb.co/NSwVv8D/img3.jpg);">
+            <div class="item">
                 <div class="content">
                     <div class="name">Análise de dados</div>
                     <div class="des">Esse automatizador de análise de dados para suas tabelas do excel</div>
                     <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Veja mais</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(https://i.ibb.co/Bq4Q0M8/img4.jpg);">
+            <div class="item">
                 <div class="content">
                     <div class="name">Assistente médica</div>
                     <div class="des">,,,</div>
                     <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Veja mais</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(https://i.ibb.co/jTQfmTq/img5.jpg);">
+            <div class="item">
                 <div class="content">
-                    <div class="name">Clima tempo</div>
-                    <div class="des">...</div>
-                    <button class="open-modal-btn" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">Veja mais</button>
+                    <div class="name">Área do aluno unifecaf</div>
+                    <div class="des">Projeto do Hackathon Unifecaf 2025, com medidores de progresso, assistente virtual e muito mais!</div>
+                    <button class="open-modal-btn" data-video="https://youtu.be/QZX3sNQdS4I">Veja mais</button>
                 </div>
             </div>
-            <div class="item" style="background-image: url(https://i.ibb.co/RNkk6L0/img6.jpg);">
+            <div class="item">
                 <div class="content">
                     <div class="name">...</div>
                     <div class="des">;;;</div>
@@ -191,19 +190,15 @@ Possuo habilidades em cloud computing, Docker, Kubernetes e metodologias ágeis,
         <div class="modal-card">
             <button class="close-btn" id="close-modal">&times;</button>
             <div class="video-container">
-                <iframe
-                    id="video-iframe"
-                    width="560"
-                    height="315"
-                    src=""
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                <iframe id="video-iframe" width="560" height="315" src="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
-            </div>    
+            </div>
         </div>
     </div>
 </section>
+
     <section id="contato">
         <h2>Entre em Contato</h2>
         <div class="icons-contact">
