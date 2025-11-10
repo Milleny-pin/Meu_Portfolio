@@ -57,7 +57,6 @@ nav a:hover span {
 }
 
 section {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,6 +65,10 @@ section {
     position: relative;
     z-index: 1;
 }
+#home, #sobre {
+    min-height: 100vh;
+}
+
 .home-container {
     display: flex;
     flex-direction: column;
@@ -191,7 +194,7 @@ section {
 #projetos .item {
     position: relative;
     width: 250px;
-    height: 300px;
+    height: 300px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,19 +232,26 @@ section {
 #projetos .content {
     position: relative;
     z-index: 3;
-    padding: 20px;
+    padding: 30px 20px 20px 20px; 
     text-align: center;
-}
-
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    width: 100%;
+    justify-content: space-between; 
+}   
 #projetos .name {
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 #projetos .des {
-    font-size: 1rem;
-    margin-bottom: 15px;
+   font-size: 1rem;
+    margin-bottom: auto;
+    margin-top: auto; 
+    
 }
 
 #projetos button {
@@ -252,6 +262,7 @@ section {
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s;
+    margin-bottom: 15px;
 }
 
 #projetos button:hover {
@@ -431,6 +442,7 @@ section {
     width: 60px;
     height: auto;
     transition: transform 0.3s ease, filter 0.3s ease;
+    
 }
 
 .icons-contact img:hover {
@@ -488,11 +500,7 @@ section {
     right: 15%; 
     animation-delay: 1s;
 }
-.icon-js { 
-    bottom: 30%; 
-    left: 5%; 
-    animation-delay: 2s;
-}
+
 .icon-python { 
     top: 55%; 
     left: 5%; 
@@ -511,6 +519,11 @@ section {
 .icon-docker { 
     bottom: 40%; 
     right: 20%; 
+    animation-delay: 6s;
+}
+.icon-js { 
+    bottom: 15%; 
+    right: 15%; 
     animation-delay: 6s;
 }
 
@@ -713,7 +726,7 @@ section {
         gap: 20px;
     }
     .icons-contact img {
-        width: 50px;
+        width: 30px;
     }
     .tech-icons img {
         width: 50px;
@@ -739,4 +752,11 @@ section {
     .about-text-content p {
         font-size: 0.9rem;
     }
+}
+
+#contato {
+    text-align: center;
+    padding-top: 1px; 
+    padding-bottom: 1px;
+
 }
