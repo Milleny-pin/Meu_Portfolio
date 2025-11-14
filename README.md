@@ -6,8 +6,9 @@
 ---
 
 ![status](https://img.shields.io/badge/STATUS-PRONTO-orange?style=for-the-badge)
-![tech](https://img.shields.io/badge/HTML5-CSS3-JS-black?style=for-the-badge)
+![tech](https://img.shields.io/badge/HTML5%20%7C%20CSS3%20%7C%20JS-black?style=for-the-badge)
 ![theme](https://img.shields.io/badge/THEME-Black%20%26%20Red-red?style=for-the-badge)
+
 
 ---
 
